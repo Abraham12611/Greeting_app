@@ -1,0 +1,38 @@
+body{
+  background: slategray;
+  text-align: center; 
+}
+
+p{
+  font-family: shanti;
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 20px;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-family: shanti;
+  font-size: 1.2rem;
+} 
+
+#greet{
+  background: palevioletred;
+  color: #fff;
+  width: 200px;
+}
+
+input:focus{
+  border: solid 5px #0ef;
+  outline: none;
+}
+
+#greet:hover{
+  background: mediumvioletred;
+  cursor: pointer;
+}
